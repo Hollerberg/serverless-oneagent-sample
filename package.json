@@ -1,0 +1,16 @@
+{
+  "name": "aws-lambda-node.js",
+  "version": "1.0.0",
+  "description": "AWS Lambda serverless example",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@dynatrace/serverless-oneagent": "^1.0.12"
+  },
+  "dependencies": {
+    "@dynatrace/oneagent": "^1.175.270-1.0.1",
+    "left-pad": "^1.3.0"
+  }
+}

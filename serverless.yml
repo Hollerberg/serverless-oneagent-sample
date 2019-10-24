@@ -1,0 +1,16 @@
+service: dynatrace-oneagent-sample
+
+plugins:
+  # DYNATRACE: pull in Dynatrace OneAgent plugin (install first with "npm install --save-dev @dynatrace/serverless-oneagent")
+  - '@dynatrace/serverless-oneagent'
+
+provider:
+  name: aws
+  region: eu-central-1
+  runtime: nodejs10.x
+
+functions:
+  hello:
+    handler: lib/index.hello
+  second:
+    handler: second.hello
